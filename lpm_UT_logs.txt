@@ -1,0 +1,642 @@
+(base) ASHISRAO-M-50SE:Downloads ashisrao$ ./lpm 
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: 22.5.21.22
+Enter the network mask (1 to 32): 25
+Enter the IPv4 nextop ip: 1.1.1.1
+Enter the o/p port: 11
+dec2bin:96 size 25 prefix 0001011000000101000101010
+IPv4 Route 22.5.21.22/25 added successfully.
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: 22.5.21.22
+Enter the network mask (1 to 32): 15
+Enter the IPv4 nextop ip: 2.2.2.2
+Enter the o/p port: 22
+dec2bin:96 size 15 prefix 000101100000010
+IPv4 Route 22.5.21.22/15 added successfully.
+
+Enter [a]dd route, [d]elete route or [r]egister: a   
+Enter the IPv4 route ip: 127.0.0.127
+Enter the network mask (1 to 32): 26
+Enter the IPv4 nextop ip: 3.3.3.3
+Enter the o/p port: 33
+dec2bin:96 size 26 prefix 01111111000000000000000001
+IPv4 Route 127.0.0.127/26 added successfully.
+
+Enter [a]dd route, [d]elete route or [r]egister: a   
+Enter the IPv4 route ip: 52.52.52.52
+Enter the network mask (1 to 32): 32
+Enter the IPv4 nextop ip: 4.4.4.4
+Enter the o/p port: 44
+dec2bin:96 size 32 prefix 00110100001101000011010000110100
+IPv4 Route 52.52.52.52/32 added successfully.
+
+Enter [a]dd route, [d]elete route or [r]egister: W
+val -1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh 33686018 port 22 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh 16843009 port 11 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh 67372036 port 44 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 50529027 port 33 
+
+Enter [a]dd route, [d]elete route or [r]egister: d
+Enter the IPv4 route ip: 22.5.21.22
+Enter the network mask (1 to 32): 25
+dec2bin:96 size 25 prefix 0001011000000101000101010
+IPv4 Route 22.5.21.22/25 deleted.
+
+Enter [a]dd route, [d]elete route or [r]egister: d
+Enter the IPv4 route ip: 5.5.5.5
+Enter the network mask (1 to 32): 32
+dec2bin:96 size 32 prefix 00000101000001010000010100000101
+IPv4 Route 5.5.5.5/32 deleted.
+
+Enter [a]dd route, [d]elete route or [r]egister: W
+val -1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh 33686018 port 22 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh 67372036 port 44 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 50529027 port 33 
+
+Enter [a]dd route, [d]elete route or [r]egister: r
+IPv4 address to search: 22.5.21.22
+dec2bin:96 size 32 prefix 00010110000001010001010100010110
+Registered Nexthop 2.2.2.2
+Source Port 22
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: 5.5.5.5
+Enter the network mask (1 to 32): 32
+Enter the IPv4 nextop ip: 5.5.5.5
+Enter the o/p port: 55
+dec2bin:96 size 32 prefix 00000101000001010000010100000101
+IPv4 Route 5.5.5.5/32 added successfully.
+dec2bin:96 size 32 prefix 00010110000001010001010100010110
+
+Enter [a]dd route, [d]elete route or [r]egister: d
+Enter the IPv4 route ip: 22.5.21.22
+Enter the network mask (1 to 32): 15
+dec2bin:96 size 15 prefix 000101100000010
+IPv4 Route 22.5.21.22/15 deleted.
+dec2bin:96 size 32 prefix 00010110000001010001010100010110
+
+Enter [a]dd route, [d]elete route or [r]egister: W
+val -1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 84215045 port 55 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh 67372036 port 44 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 50529027 port 33 
+
+Enter [a]dd route, [d]elete route or [r]egister: r
+IPv4 address to search: 22.5.21.22
+dec2bin:96 size 32 prefix 00010110000001010001010100010110
+Registered Nexthop 127.0.0.1
+Source Port 999
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: 255.255.255.255
+Enter the network mask (1 to 32): 32
+Enter the IPv4 nextop ip: 1.1.1.1
+Enter the o/p port: 11
+nw_ip -1
+dec2bin:97 size 32 prefix 11111111111111111111111111111111
+IPv4 Route 255.255.255.255/32 added successfully.
+
+Enter [a]dd route, [d]elete route or [r]egister: r
+IPv4 address to search: 255.0.0.0
+nw_ip -16777216
+dec2bin:97 size 32 prefix 11111111000000000000000000000000
+Registered Nexthop 127.0.0.1
+Source Port 999
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: a.1.2.3
+Enter the network mask (1 to 32): 12
+Enter the IPv4 nextop ip: 12.12.12.12
+Enter the o/p port: 1221
+Invalid IPv4 address: a.1.2.3
+
+Enter [a]dd route, [d]elete route or [r]egister: W
+val -1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 84215045 port 55 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh 67372036 port 44 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 50529027 port 33 
+
+Enter [a]dd route, [d]elete route or [r]egister: d
+Enter the IPv4 route ip: 9.9.9.9
+Enter the network mask (1 to 32): 16
+dec2bin:96 size 16 prefix 0000100100001001
+IPv4 Route 9.9.9.9/16 deleted.
+dec2bin:96 size 32 prefix 00010110000001010001010100010110
+
+Enter [a]dd route, [d]elete route or [r]egister: W   
+val -1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 84215045 port 55 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh 67372036 port 44 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 50529027 port 33 
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: 0.0.0.0
+Enter the network mask (1 to 32): 16
+Enter the IPv4 nextop ip: 34.34.34.34
+Enter the o/p port: 34
+dec2bin:77 Invalid PARAMETER. nw_ip 0 prefix 0x7ff7bfa927c0 size 16
+Invalid prefix val. prefix[0] = -1
+IPv4 Route add failed. rc = -1
+dec2bin:96 size 32 prefix 00010110000001010001010100010110
+
+Enter [a]dd route, [d]elete route or [r]egister: W
+val -1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 84215045 port 55 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh 67372036 port 44 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 1 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 0 nh -1 port -1 
+val 1 nh 50529027 port 33 
+
+Enter [a]dd route, [d]elete route or [r]egister: a
+Enter the IPv4 route ip: 45.45.45.45
+Enter the network mask (1 to 32): 0 
+Enter the IPv4 nextop ip: 8.8.8.8
+Enter the o/p port: 88
+Invalid mask: 0
+
+Enter [a]dd route, [d]elete route or [r]egister: r
+IPv4 address to search: 1.2.3.a
+Invalid IPv4 address: 1.2.3.a
+Registered Nexthop 127.0.0.1
+Source Port 999
