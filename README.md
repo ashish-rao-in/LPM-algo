@@ -27,6 +27,7 @@ The delete function deletes the leaf node if the children are not present else, 
 
 # Register IP
 This function populates cache memory with a registed IP and the corresponding nexthop.
+It automatically deregisters the previously registered IP when registering the new IP.
 
 The cache is updated whenever a route is added, deleted, or if user registes a new ip address.
 
