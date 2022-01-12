@@ -18,7 +18,10 @@ Date: 08/Jan/2022
 extern lpm_node *root;
 extern int cache;
 
-
+/*
+ * API to initialise the global variables.
+ */
+ 
 void
 init_globals(void) 
 {
