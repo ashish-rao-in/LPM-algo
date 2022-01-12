@@ -122,6 +122,8 @@ add_delete_route(int add, lkp_result *result);
  *
  * If the cache is up to date, return the nexthop from cache.
  * If the cache is outdated, find and return the latest matched nexthop and update the cache.
+ * 
+ * This function automatically deregisters the previously registered IP, when the new IP is registered.
  */
 extern lkp_result*
 register_ip(lkp_result *result); 
