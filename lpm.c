@@ -25,11 +25,6 @@ lpm_node *root;
  */
 int cache;
 
-/*
- * API to initialise the global variables.
- */
- 
-
 
 /*
  * API to insert a prefix into the LPM tree.
